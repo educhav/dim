@@ -1,0 +1,89 @@
+html {
+    color: #d1d1d1;
+    background-color: #333333;
+}
+
+body {}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.message {
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+input {
+    margin-top: 1rem;
+    border-radius: 1rem;
+    width: 20%;
+}
+
+.user-profile {
+    width: 20%;
+}
+
+.user-image {
+    border-radius: 20px;
+}
+
+
+#chatbox {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    background-color: #181818;
+    height: 68vh;
+    width: 80%;
+    padding: 1rem;
+    border: #d1d1d1 2px solid;
+    border-radius: 1rem;
+    overflow-y: auto;
+    overflow-x: hidden;
+    overflow-wrap: break-word;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
